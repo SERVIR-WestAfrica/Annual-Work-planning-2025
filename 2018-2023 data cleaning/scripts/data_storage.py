@@ -70,30 +70,7 @@ def load_crop_data(asset_id):
 
 # Asset IDs for individual rainfed 2023 crop feature collections
 asset_ids = {
-    'cashew': 'projects/ee-kkidia3/assets/cashew',  # tree_crop
-    'cassava': 'projects/ee-kkidia3/assets/cassava',  # vegetable
-    'cowpea': 'projects/ee-kkidia3/assets/cowpea',  # legume
-    'cowpmix': 'projects/ee-kkidia3/assets/cowpea_mixed',  # mix_legume (considered as legumes)
-    'eggplant': 'projects/ee-kkidia3/assets/eggplant',  # vegetable
-    'fallow': 'projects/ee-kkidia3/assets/fallow',  # fallow (sub_class = fallow)
-    'fonio': 'projects/ee-kkidia3/assets/fonio',  # cereals
-    'gnut': 'projects/ee-kkidia3/assets/groundnut',  # legume
-    'gnutmix': 'projects/ee-kkidia3/assets/groundnut_mixed',  # mix_legume (considered as legumes)
-    'gsorrel': 'projects/ee-kkidia3/assets/guinea_sorrel',  # vegetable
-    'maize': 'projects/ee-kkidia3/assets/maize',  # cereal
-    'millet': 'projects/ee-kkidia3/assets/millet',  # cereals
-    'milletmix': 'projects/ee-kkidia3/assets/millet_mixed',  # mix_cereal (cereals)
-    'okra': 'projects/ee-kkidia3/assets/okra',  # vegetable
-    'potato': 'projects/ee-kkidia3/assets/potato',  # vegetable
-    'rice': 'projects/ee-kkidia3/assets/rice',  # cereal
-    'sesame': 'projects/ee-kkidia3/assets/sesame',  # cereal?
-    'sorgh': 'projects/ee-kkidia3/assets/Sorghum',  # cereal
-    'soye': 'projects/ee-kkidia3/assets/soye',  # cereal?
-    'squash': 'projects/ee-kkidia3/assets/squash',  # vegetable
-    'taro': 'projects/ee-kkidia3/assets/taro',  # vegetable
-    'vouandzou': 'projects/ee-kkidia3/assets/vouandzou',  # legume
-    'melon': 'projects/ee-kkidia3/assets/watermelon',  # vegetable
-    'wheat': 'projects/ee-kkidia3/assets/wheat'  # cereal
+  "ask for them"
 }
 
 #_________________ NOT OPTIONAL: 2023 has different format -align it with other data_____________________
@@ -288,37 +265,15 @@ class_groups = {
 
 
 # All 2023 data with NICFI Bands and NDVI
-data_2023_ncfi = ee.FeatureCollection("projects/ee-kkidia3/assets/data_2023_class_nicfi")
+data_2023_ncfi = ee.FeatureCollection("make a request")
 
 # Raw Data for previous years
-data_2018 = ee.FeatureCollection("projects/ee-djitastar/assets/data_2018")
-data_2019 = ee.FeatureCollection("projects/ee-djitastar/assets/data_2019")
-data_2020 = ee.FeatureCollection("projects/ee-djitastar/assets/data_2020")
+data_2018 = ee.FeatureCollection("make a request")
+data_2019 = ee.FeatureCollection("make a request")
+data_2020 = ee.FeatureCollection("make a request")
 
 #Clean Raw data for all years by subclass
-clean_raw_data_2018_Cereals = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2018_Cereals')
-clean_raw_data_2018_Legumes = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2018_Legumes')
-clean_raw_data_2018_Noncrop= ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2018_Noncrop')
-clean_raw_data_2018_Tree_Crops = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2018_Tree_Crops')
-clean_raw_data_2018_Vegetables = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2018_Vegetables')
-clean_raw_data_2019_Cereals = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2019_Cereals')
-clean_raw_data_2019_Legumes = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2019_Legumes')
-clean_raw_data_2019_Noncrop = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2019_Noncrop')
-clean_raw_data_2019_Vegetables = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2019_Vegetables')
-clean_raw_data_2020_Bare_Built_Up = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Bare_Built_Up')
-clean_raw_data_2020_Cereals = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Cereals')
-clean_raw_data_2020_Fallow  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Fallow')
-clean_raw_data_2020_Legumes  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Legumes')
-clean_raw_data_2020_Noncrop  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Noncrop')
-clean_raw_data_2020_Other_Vegetation = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Other_Vegetation')
-clean_raw_data_2020_Tree_Crops  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Tree_Crops')
-clean_raw_data_2020_Vegetables  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2020_Vegetables')
-clean_raw_data_2023_Cereals = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Cereals')
-clean_raw_data_2023_Fallow  = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Fallow')
-clean_raw_data_2023_Legumes = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Legumes')
-clean_raw_data_2023_Noncrop = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Noncrop')
-clean_raw_data_2023_Tree_Crops = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Tree_Crops')
-clean_raw_data_2023_Vegetables = ee.FeatureCollection('projects/ee-janet/assets/dl_ml_classification_data/clean_raw_data_2023_Vegetables')
+"Make a request"
 
 
 
