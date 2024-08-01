@@ -7,15 +7,6 @@ Created on Fri Jul 19 23:39:24 2024
 This script processes land cover data for various years using Google Earth Engine (GEE) and outputs the results as shapefiles.
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 19 23:39:24 2024
-
-@author: team
-
-This script processes land cover data for various years using Google Earth Engine (GEE) and outputs the results as shapefiles.
-"""
-
 # crop_data_processing.py
 
 import os
@@ -120,71 +111,6 @@ def load_and_process_data(dataset, chunk_size=5000):
     df20 = pd.DataFrame(all_properties)
     return df20, all_geometries
 
-
- 
-# #_________________ NOT OPTIONAL: 2023 has different format -align it with other data_____________________
-# # Function to process the 2023 data
-# def process_2023_data(ds.asset_ids):
-#     """
-#     Processes crop data for the year 2023 from specified asset IDs imported from data storage.py.
-
-#     This function loads crop data from a set of asset IDs, extracts and processes
-#     properties and geometries, and constructs a pandas DataFrame with the collected data.
-#     It also handles the conversion of the DataFrame to an Earth Engine FeatureCollection.
-
-#     Parameters:
-#     asset_ids (dict): A dictionary containing crop types as keys and their corresponding
-#                       Earth Engine asset IDs as values.
-#     ds (module): A module or object containing necessary datasets and dictionaries.
-
-#     Returns:
-#     ee.FeatureCollection: An Earth Engine FeatureCollection containing the processed data.
-#     """
-#     all_properties = []
-#     all_geometries = []
-
-#     for crop, asset_id in asset_ids.items():
-#         fc = load_crop_data(asset_id)
-#         geometry_types = get_geometry_types(fc)
-
-#         features = fc.getInfo()['features']
-
-#         properties_list = [feature['properties'] for feature in features]
-#         geometry_list = [shape(feature['geometry']) for feature in features]
-
-#         valid_geometries = [geom for geom in geometry_list if isinstance(geom, (Polygon, MultiPolygon))]
-#         valid_properties = [properties_list[i] for i in range(len(geometry_list)) if isinstance(geometry_list[i], (Polygon, MultiPolygon))]
-
-#         all_properties.extend(valid_properties)
-#         all_geometries.extend(valid_geometries)
-
-#     df = pd.DataFrame(all_properties)
-#     df['Speculatio'] = df.apply(
-#         lambda row: ', '.join(
-#             set(
-#                 filter(
-#                     pd.notna, [
-#                         row.get('Name', None),
-#                         row.get('Speculatio', None),
-#                         row.get('Specult', None),
-#                         row.get('Speculat', None)
-#                     ]
-#                 )
-#             )
-#         ) if any(row.get(col) is not None for col in ['Name', 'Speculatio', 'Specult', 'Speculat']) else np.nan,
-#         axis=1
-#     )
-
-#     df['annee'] = 2023  # create this column
-#     df['Type'] = '???'  # create this column
-#     df['Crop_Ncrop'] = 'Crop'  # create this column
-#     df['ID'] = range(1, len(df) + 1)  # create this column
-#     df = df[['ID', 'Crop_Ncrop', 'Speculatio', 'Type', 'annee']].apply(lambda x: x.astype(str).apply(capitalize_first))
-#     df['geometry'] = all_geometries
-#     df.columns = ['id', 'Crop_Ncrop', 'Speculatio', 'Type', 'annee', 'Geometry']
-#     print(df.Speculatio.unique())
-#     ee_df = gdf_to_ee_feature_collection(df)
-#     return ee_df
 
 #_________________ NOT OPTIONAL: process all 2018, 2019, 2020, 2023 data together_____________________  
 # Function to fetch and process features in batches
