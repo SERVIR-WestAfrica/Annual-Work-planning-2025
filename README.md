@@ -1,4 +1,4 @@
-# 1. Crop Type Classification
+# 1. Crop type classification
 
 
 ### Reading corner about crop mapping in Senegal
