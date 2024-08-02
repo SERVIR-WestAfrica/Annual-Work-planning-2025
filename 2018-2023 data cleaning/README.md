@@ -1,7 +1,7 @@
-## 1. Data Digitization for 2023 data
+## 1. Data Digitization for 2023 
 
 
-## 2. Data Cleaning for 2018, 2019, 2020 and 2023 data
+## 2. Data Cleaning for 2018, 2019, 2020 and 2023 years
 ### Completed Tasks:
 - GEE Asset/Crop polygons
 - Polygon area estimation for each crop type data.
