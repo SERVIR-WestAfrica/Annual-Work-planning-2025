@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SALY Senegal 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/NASA_Harvest_favicon.png">
+     
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+  
+        .b-example-divider {
+          width: 100%;
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+  
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+  
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+  
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+  
+        .btn-bd-primary {
+          --bd-violet-bg: #712cf9;
+          --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+          --bs-btn-font-weight: 600;
+          --bs-btn-color: var(--bs-white);
+          --bs-btn-bg: var(--bd-violet-bg);
+          --bs-btn-border-color: var(--bd-violet-bg);
+          --bs-btn-hover-color: var(--bs-white);
+          --bs-btn-hover-bg: #6528e0;
+          --bs-btn-hover-border-color: #6528e0;
+          --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+          --bs-btn-active-color: var(--bs-btn-hover-color);
+          --bs-btn-active-bg: #5a23c8;
+          --bs-btn-active-border-color: #5a23c8;
+        }
+  
+        .bd-mode-toggle {
+          z-index: 1500;
+        }
+  
+        .bd-mode-toggle .dropdown-menu .active .bi {
+          display: block !important;
+        }
+        div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Heading1
+{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Heading1
+{
+   height: 100%;
+   margin: 0;
+}
+#wb_CssMenu1
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+   width: 25%;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #333333;
+   border: 1px solid #CCCCCC;
+   border-radius: 0px;
+   background-color: #FFFFFF;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: calc(100% - 4px);
+   box-sizing: border-box;
+   height: 68px;
+   padding: 0 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 68px;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FFFFFF;
+   border: 1px solid #2E6DA4;
+   background-color: #337AB7;
+   background-image: none;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#CssMenu1 li i
+{
+   font-size: 13px;
+   margin-right: 3px;
+   width: 15px;
+}
+@media all and (max-width:480px) 
+{
+#wb_CssMenu1 ul
+{
+   width: 100%;
+}
+#wb_CssMenu1 li
+{
+   padding: 0 0px 4px 0px !important;
+   width: 100% !important;
+}
+#wb_CssMenu1 a
+{
+   box-sizing: border-box;
+   float: none !important;
+   width: 100% !important;
+}
+
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   --color: #2E74B5;
+   background-color: transparent;
+}
+
+      </style>
+      <link href="css/navbar-fixed.css" rel="stylesheet">
+  </head>
+  
+  <body>
+ 
+ 
+ 
+  
+      
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="position: inherit;">
+    <div class="container-fluid">
+ 
+      <div class="col-md-2 mb-3 mb-md-0">
+      </div>
+
+      <div class="col-md-10 mb-3 mb-md-0">
+        <div id="wb_Image1" style="position:relative;width:541px;height:118px;z-index:0;float: left;">
+            <img src="images/NASA%20and%20USAID%20Logo.png" id="Image1" alt="" width="541" height="118">
+        </div>
+      
+        <div id="wb_Image2" style="position:relative;width:277px;height:100px;z-index:1;float: inline-start;">
+            <img src="images/ICRISAT%20Logo.jpg" id="Image2" alt="" width="277" height="100">
+        </div>
+        <div id="wb_Image3" style="position:relative;width:191px;height:156px;z-index:2;float: inline-start;">
+            <img src="images/servir.png" id="Image3" alt="" width="191" height="156">
+        </div>
+        <div id="wb_Heading1" style="position:relative;width:905px;z-index:3;">
+            <h1 id="Heading1" class="h1">SERVIR WEST AFRICA PLANNING  2025</h1>
+        </div>
+        <nav id="wb_CssMenu1" style="position:relative;left:47px;width:905px;height:82px;z-index:4;">
+          <ul id="CssMenu1" role="menubar" class="nav">
+              <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="#DAY 1" target="_self"><i class="fa fa-calendar">&nbsp;</i>DAY 1 AUGUST 26</a>
+              </li>
+              <li role="menuitem" class="nav-item"><a class="nav-link" href="#DAY 2" target="_self"><i class="fa fa-sun-o">&nbsp;</i>DAY 2 AUGUST 27&nbsp;DAY 2</a>
+              </li>
+              <li role="menuitem" class="nav-item"><a class="nav-link" href="#DAY 3" target="_self"><i class="fa fa-id-badge">&nbsp;</i>DAY 3 AUGUST 28 </a>
+              </li>
+              <li role="menuitem" class="nav-item"><a class="nav-link" href="#INFORMATION" target="_self"><i class="fa fa-at">&nbsp;</i>INFORMATION</a>
+              </li>
+          </ul>
+      </nav>
+      </div>    
+
+
+  </div>
+
+        <!--div class="col-md-6 mb-3 mb-md-0">
+            <a class="navbar-brand" href="#">SALY, SENEGEL</a>
+          </div>
+         
+     
+
+
+      <div class="col-md-8 mb-2 mb-md-0 collapse navbar-collapse" style="color: black;" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#schedule">SCHEDULE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">SERVICES AREA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#SPERKER">SPEAKERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">RESOURCES</a>
+          </li>
+        </ul>
+      </div-->
+  </nav>
+  
+  <main class="container" id="content50" style="text-align: initial;">
+
+    <h1 id="DAY 1">DAY 1 AUGUST 26</h1>
+    <hr>
+  </div> 
+
+  <iframe 
+  width="100%" 
+  height="620" 
+  src="https://docs.google.com/spreadsheets/d/1Sp93C_P1AsbwyKss9gh6Eny8HqqLwnig/edit?usp=sharing&ouid=109657489271162115235&rtpof=true&sd=true">
+</iframe>
+    <h1 id="DAY 2">DAY 2 </h1>
+    <hr>
+    <iframe 
+    width="100%" 
+    height="620" 
+    src="https://docs.google.com/spreadsheets/d/1irIkpz3rWFllRbi3S0xvZeCQWPxQfARg/edit?usp=sharing&ouid=109657489271162115235&rtpof=true&sd=true">
+</iframe>
+
+    <h1 id="DAY 3">DAY 3</h1>
+    <hr>
+    <iframe 
+    width="100%" 
+    height="620" 
+    src="https://docs.google.com/spreadsheets/d/1VasJ5MyxWQFNpWkiggDAH3IezczzyWLs/edit?usp=sharing&ouid=109657489271162115235&rtpof=true&sd=true">
+</iframe>
+
+    <h1 id="INFORMATION">INFORMATION</h1>
+    <hr>
+    <!--div class="bg-body-tertiary p-5 rounded">
+      <div id="partners">
+        <div class="column">
+            <img 
+                src="assets/umd-logo.png" 
+                style="max-height: 5em;"/>
+        </div>
+        <div style="padding: 0px 48px">
+            <img src="assets/servir.png" style="max-height: 4.5em;"/>
+        </div>
+
+        
+  
+        <strong>
+            Dates: August 25-29, 2024
+        </strong>
+        <br>
+       
+            This activity aims to develop the annual Work Plan for the fiscal year 2025.
+        </p>
+        
+
+        <strong>Thematic Areas</strong>
+        <ul>
+            <li>Agriculture and Food Security</li>
+            <li>Ecosystem and Carbon Management</li>
+            <li>Water Security</li>
+            <li>Weather and Climate Resilience</li>
+            <li>Financial Instruments </li>
+           
+        </ul>
+        <strong>Service Portfolio</strong>
+        <ul>
+          <li>Agriculture and Food Security
+            <ul>
+                <li>Crop Monitoring and Condition Assessment</li>
+                <li>Desert Locust Risk Mapping (P-Locust)</li>
+                <li>Bridging the Gap Between AFS and Weather & Climate</li>                 
+            </ul>
+        </li>
+        <li>Ecosystem and Carbon Management
+          <ul>
+              <li>Artisanal Mining Monitor</li>
+              <li>Charcoal Monitoring</li>
+              <li>Commune-Level Development Planning</li>  
+              <li>Farmer-Managed Land Rehabilitation Assessment</li>
+              <li>Harmonization of Regional Land Cover Classification</li>                 
+          </ul>
+            <li>Water Security</li>
+            <li>Weather and Climate Resilience</li>
+            <li>Financial Instruments </li>
+           
+        </ul>
+
+
+       
+
+        <h1 id="schedule">Schedule: August 25-29, 2024</h1>
+        <iframe 
+        width="100%" 
+        height="620" 
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSG9n9qlYd08kZPqx1b9PV3-35v3y1p8Fq8BhzWy7T2vVJvxeY6bkHVs3TrQ6LXxA/pubhtml?widget=true&amp;headers=false">
+    </iframe>
+        
+        <h1 id="project">SERVIR WEST AFRICA </h1>
+        
+        <a href="https://servir.icrisat.org/meet-our-team/">Meet our Team</a>
+        <br/><br/>
+
+        <h2>Presentation</h2>
+
+        <h3>1. Understand crops within the area of interest</h3>
+        <ul>
+            <li>Overview of region (geography, location, population)</li>
+            <li>Climatology (climate zones, precipitation patterns)</li>
+            <li>Physical characteristics (soils, elevation)</li>
+            <li>Socioeconomic factors (economics, agriculture, food security, staple foods)</li>
+            <li>Crop dynamics (challenges in crop production, crop calendars)</li>
+        </ul>
+        
+
+        <h3>2. Analysis of two existing maps</h3>
+        <ul>
+            <li>Visual Assessment [relevant script: 1_Worldcover_cropland, 2_visualizing_all_maps]</li>
+            <li>Accuracy Assessment [relevant script: 3_Worldcover_cropland_accuracy]</li>
+        </ul>
+
+        <h3>3. Create cropland for the region</h3>
+        <ul>
+            <li>Overview of the mapping approach</li>
+            <li>Datasets used (satellite imagery [relevant script: 4_Sentinel2], ground truth data)</li>
+            <li>Models and algorithms employed</li>
+            <li>Visual Assessment [relevant script: 5_classification]</li>
+            <li>Accuracy Assessment [relevant script: 3_Worldcover_cropland_accuracy]</li>
+            <li>Conclusion (key findings, future directions and recommendations)</li>
+        </ul>
+        
+
+        <h2>Regions of Interest</h2>
+        Group 1 Google Earth Engine Boundary code:
+        <pre style="background-color: lightgray">
+    <code>
+    var AEZ = ee.FeatureCollection("users/izvonkov/Senegal/ZEF_AgroEcoZones")
+
+    function getAOIFromAEZ(zoneList){
+    return AEZ.filter(ee.Filter.inList('Zone', ee.List(zoneList)))
+    }
+
+    var roi = getAOIFromAEZ(["Senegal River Valley", "Ferlo"])
+    Map.addLayer(roi, {}, "River Valley and Ferlo")
+    </code>
+        </pre>
+
+
+Group 2 Google Earth Engine Boundary code:
+<pre style="background-color: lightgray">
+    <code>
+
+    var AEZ = ee.FeatureCollection("users/izvonkov/Senegal/ZEF_AgroEcoZones")
+
+    function getAOIFromAEZ(zoneList){
+    return AEZ.filter(ee.Filter.inList('Zone', ee.List(zoneList)))
+    }
+
+    var roi = getAOIFromAEZ(["Niayes", "Groundnut Basin"])
+    Map.addLayer(roi, {}, "Niayes and Groundnut Basin")
+    </code>
+</pre>
+
+
+Group 3 Google Earth Engine Boundary code:
+<pre style="background-color: lightgray">
+    <code>
+    var AEZ = ee.FeatureCollection("users/izvonkov/Senegal/ZEF_AgroEcoZones")
+
+    function getAOIFromAEZ(zoneList){
+    return AEZ.filter(ee.Filter.inList('Zone', ee.List(zoneList)))
+    }
+
+    var roi = getAOIFromAEZ(["Casamance", "Eastern Senegal"])
+    Map.addLayer(roi, {}, "Casamance and Eastern")
+    </code>
+</pre>
+
+    <h1 id="helmets">Helmets Labeling Crops</h1>
+    <ol>
+        <li><a href="https://nasaharvest.github.io/helmets">Data Collection</a></li>
+        <li><a href="https://github.com/nasaharvest/street2sat/blob/main/gcp/instructions-for-uploading.md">Data Upload</a></li>
+        <li><a href="https://colab.research.google.com/github/nasaharvest/street2sat/blob/gopro2crop/notebooks/GoPro2CropKMZ.ipynb">Data Processing</a></li>
+        <li><a href="https://docs.google.com/document/d/1OCF2gpCQQbZP-y6xcTbKE2OzhkxMtyaJi8wiWi8jfzs/edit?usp=sharing">Data Quality Assessment</a></li>
+    </ol>
+
+
+        <h1 id="RESOURCES">Resources</h1>
+        <ul>
+            <li><a href="https://docs.google.com/presentation/d/10WQ7v7v7M3ULIxptuKNbnJytF9xt8W4RpJr-MmEqC7Q/edit#slide=id.p">Whiteboard</a></li>
+            <li>
+                <a href="https://code.earthengine.google.com/a50e138bcb63a943d45202466f787a7d?accept_repo=users%2Fizvonkov%2Fcrop-mapping-senegal">Google Earth Engine Cropland Change Example Script</a>
+            </li>
+        </ul>
+
+    </div-->
+  </main>
+
+
+
+    
+    <!-- Main -->
+    <div >
+        
+
+    </div> 
+  </body>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
