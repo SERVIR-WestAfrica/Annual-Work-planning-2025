@@ -1,0 +1,43 @@
+project:
+  type: website
+website:
+      title: "SERVIR WEST AFRICA HUB"
+      favicon: url('assets/SERVIRWA.png')
+      page-navigation: true
+      back-to-top-navigation: true
+      page-footer: "Copyright 2024, SERVIR WA" 
+
+      #utput-dir: docs
+      #   right: 
+      # - icon: github
+      #   href: https://github.com/
+      # - icon: twitter 
+      #   href: https://twitter.com/ 
+     # site-url: https://servir.icrisat.org/
+      #repo-url: https://servir.icrisat.org/
+      #repo-actions: [edit, source, issue]
+      #sidebar:
+      navbar:
+        left:
+          - href: index.qmd
+            text: 'Home'
+          - href: agenda.qmd
+            text: 'Agenda'
+          - href: resources.qmd
+            text: 'Resources'
+          - href: about.qmd
+            text: 'Contact'
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    js: 
+      - timeline.js
+      - agenda.js
+      - countdown.js
+    highlight-style: atom-one-dark
+    toc: true
+    grid:
+      sidebar-width: 250px
+

@@ -1,0 +1,64 @@
+---
+title: "Conference Agenda"
+subtitle: "Saly Senegal, August 26-30, 2024"
+format:
+  html:
+    css: styles.css
+    # include-in-header: |
+    #     <script src="countdown.js"></script>
+    # include-after-body: 
+      
+    #  <script src="timeline.js"></script>
+    #   <script src="agenda.js"></script>
+
+---
+<link rel="stylesheet" href="styles.css">
+
+<script src="countdown.js"></script>
+<script src="timeline.js"></script>
+<script src="agenda.js"></script>
+
+::: {#main-container}
+# Coming Soon...
+
+::: {#countdown}
+<div class="time-block">
+  <span id="days">11</span><span class="label">DAYS</span>
+</div>
+<div class="time-block">
+  <span id="hours">8</span><span class="label">HOURS</span>
+</div>
+<div class="time-block">
+  <span id="minutes">45</span><span class="label">MINUTES</span>
+</div>
+<div class="time-block">
+  <span id="seconds">14</span><span class="label">SECONDS</span>
+</div>
+:::
+<div class="scroll-down">
+  <i class="arrow down"></i>
+</div>
+:::
+
+
+## Conference Agenda
+<div id="timeline">
+<ul>
+  <button id="day1"class="active">Monday, 26-Aug</button>
+  <button id="day2">Tuesday, 27-Aug</button>
+  <button id="day3">Wednesday, 28-Aug</button>
+  <button id="day4">Thursday, 29-Aug</button>
+  <button id="day5">Friday, 30-Aug</button>
+   <ul>
+</div>
+
+<div id="agenda-display"></div>
+
+
+ <footer>
+ <img src="assets/patr.png" width="400">,  
+    <small>
+      Copyright © 2024 SERVIR West Africa Hub.
+    </small>
+  </footer>
+

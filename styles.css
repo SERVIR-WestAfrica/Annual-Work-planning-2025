@@ -1,0 +1,198 @@
+/* css styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#main-container {
+    background-image: url('assets/s2s.png');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 230, 230);
+    text-align: center;
+    padding: 0px 0;
+    background-color: #f4f4f4; /* Background color fallback if image fails to load */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    color: #f8f9fa;
+    margin: 30px 0;
+}
+
+.time-block {
+    margin: 0 1em;
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+.time-block span {
+    display: block;
+}
+
+#countdown span:first-child {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 2em;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(45deg);
+}
+
+#timeline {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10;
+    margin: 5px 0;
+}
+
+#timeline li {
+    padding: 10px 20px;
+    background-color: #0d064d;
+    color: rgb(231, 233, 97);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#timeline li:hover {
+    background-color: #08eb94;
+}
+
+#day-details, #conference-agenda {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+#conference-agenda table {
+    width: 100%;
+    border-collapse: collapse;
+    border-collapse: separate;
+}
+
+#conference-agenda th, #conference-agenda td {
+    border: 2px solid #1e55ec;
+    padding: 10px;
+    text-align: left;
+    background-color: #dae2ff;
+    font-size: 12x;
+    /*font-weight: bold;*/
+}
+
+#conference-agenda tr:nth-child(even) {
+    background-color: #9e85e2;
+}
+
+@media screen and (max-width: 1500px) {
+    #conference-agenda {
+        font-size: 12px;
+    }
+    
+    #conference-agenda th, #conference-agenda td {
+        padding: 5px;
+    }
+}
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 100000px) {
+    .table-agenda, .table-agenda thead, .table-agenda tbody, .table-agenda th, .table-agenda td, .table-agenda tr {
+        display: block; /* Block display for responsive tables */
+    }
+
+    .table-agenda thead tr {
+        position: absolute; /* Position the header out of flow */
+        top: -9999px; /* Move the header out of the viewport */
+        left: -9999px;
+    }
+
+    .table-agenda tr { margin: 0 0 10px; }
+
+    .table-agenda td {
+        border: none; /* Remove borders for a cleaner look */
+        position: relative; /* For positioning the pseudo-elements */
+        padding-left: 70%; /* Make space for header content before data */
+        text-align: right; /* Align the text to the right for readability */
+    }
+
+    .table-agenda td:before {
+        content: attr(data-label); /* Use data-label attribute for content */
+        position: absolute; /* Position absolutely within the cell */
+        left: 0; /* Align left */
+        width: 100%; /* Width of the pseudo-element */
+        padding-right: 20px; /* Right padding */
+        white-space: nowrap; /* Prevent wrapping */
+        text-align: left; /* Text align left */
+        font-weight: bold; /* Bold font for distinction */
+        color: #0f7cf0; /* Blue color to match headers */
+    }
+}
+
+/* Additional button styling for agenda navigation */
+#timeline button {
+    padding: 10px 20px; /* Padding for buttons */
+    margin-right: 5px; /* Margin between buttons */
+    background-color: #ffc506; /* Blue background */
+    color: rgb(22, 21, 21); /* White text */
+    border: none; /* No borders */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold font for distinction */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+#timeline button:hover {
+    background-color: #00b3a4; /* Darker blue on hover */
+}
+
+  
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #83a740;
+    color: #ffffff;
+  }

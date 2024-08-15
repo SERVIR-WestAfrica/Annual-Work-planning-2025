@@ -1,0 +1,62 @@
+---
+title: ""
+logo: "assets/SERVIRWA.png"
+format: 
+  html:
+    css: custom.scss
+---
+
+🔗 
+
+ <style>
+    header {
+      text-align: center; /* Aligns text and inline elements to the center */
+      display: flex; /* Uses flexbox to manage layout */
+      flex-direction: column; /* Aligns children elements vertically */
+      align-items: center; /* Centers the flex items along the cross axis */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/servirlogosmall.png" width="250" alt="MDN logo" />
+    <h1>Welcome to Annual Work Plan Conference</h1>
+     <h4>[Click Here for SERVIR WA Official Website](https://servir.icrisat.org/)</h4>
+  </header>
+</body>
+
+
+
+
+## Current Thematic Areas 
+
+|                 |
+|-----------------------------------|
+| <img src="assets/afs.jpg" width="30">   Agriculture and Food Security     | 
+|<img src="assets/ecm.jpg" width="30">   Ecosystem and Carbon Management   | 
+|<img src="assets/ws.jpg" width="30">   Water Security                    | 
+| <img src="assets/wcr.jpg" width="30">  Weather and Climate Resilience    | 
+| <img src="assets/fis.jpg" width="30">  Financial Instruments             | 
+
+## Service Portfolio
+
+| Service Area                       | Services Offered                                    |
+|------------------------------------|-----------------------------------------------------|
+| Agriculture and Food Security      | - Crop Monitoring and Condition Assessment          |
+|                                    | - Desert Locust Risk Mapping (P-Locust)             |
+|                                    | - Bridging the Gap Between AFS and Weather & Climate|
+| Ecosystem and Carbon Management    | - Artisanal Mining Monitoring                       |
+|                                    | - Charcoal Production Monitoring                    |
+|                                    | - Commune-Level Development Planning                |
+|                                    | - Farmer-Managed Land Natural Regeneration          |
+|                                    | - Harmonization of Regional Land use/Land Cover Classification System|
+| Water Security                     | - Flash Flood Vulnerability Mapping                 |
+|                                    | - GroundWater Monitoring                           |
+|                                    | - Monitoring Ephemeral Water Bodies-Wendou               |
+| Weather and Climate Resilience     | - Seasonal Forecasting                              |
+| Financial Instruments              | - Local Risk Control                                |
+|                                    | - Disaster Preparedness                             |
+| Sustainable Development Goals Mapping |                          |
+| Capacity Building               |                             |
+| Small Innovation Grants          |                            |
+

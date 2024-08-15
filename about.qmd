@@ -1,0 +1,25 @@
+---
+title: "Want to connect with u----"
+---
+
+# CONTACT
+
+For more details
+
+## STAY CONNECTED
+
+- [Facebook](#)
+- [Twitter](#)
+- [Instagram](#)
+- [YouTube](#)
+
+::: {#subscribe-form}
+<form action="mailto:yourname@yourdomain.com" method="post" enctype="text/plain">
+  <input type="text" name="email" placeholder="YOUR EMAIL HERE">
+  <input type="submit" value="Subscribe">
+</form>
+:::
+
+---
+
+Copyright 2024 SERVIR WEST AFRICA | All Rights Reserved | Powered by HTML, CSS & jQuery
