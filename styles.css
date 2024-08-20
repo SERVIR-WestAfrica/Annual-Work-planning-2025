@@ -1,0 +1,331 @@
+/* css styles */
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Optional: Set a background color */
+    padding: 10px 0;
+}
+#agenda-page {
+    background-color: #ffffff;
+    margin: 10;
+    margin-top: 0px;
+    margin-bottom: 500px;
+    padding: 60;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #110101;
+    font-size: 10;
+}
+#main-container {
+    background-image: url('assets/awp1.jpg');
+    background-size: cover;
+    background-position: top;
+    width: 100%; /* Full viewport width */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    color: rgb(238, 230, 230);
+    text-align: center;
+    padding: 0px 0;
+}
+/* Styles for headings and countdown */
+h1 {
+    text-align: left;
+    color: #0f0f0f;
+}
+h2 {
+    text-align: left;
+    color: #fffefe;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px; /* Correct unit */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    color: #f8f9fa;
+    margin: 0px 0;
+}
+
+.time-block {
+    margin: 0 1em;
+    color: #f8f9fa;
+    font-size: 24px;
+}
+
+.time-block span {
+    display: block;
+}
+
+#countdown span:first-child {
+    font-size: 3em;
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 2em;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(45deg);
+}
+
+#timeline {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10;
+    margin: 5px 0;
+}
+
+#conference-agenda li {
+    padding: 10px 20px;
+    background-color: #0d064d;
+    margin-bottom: 100000px;
+    margin-top:0px;
+    color: rgb(232, 233, 203);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#timeline li:hover {
+    background-color: #08eb94;
+}
+
+#day-details, #conference-agenda {
+    width: 100%;
+    overflow-x: auto;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #fcfeff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+#conference-agenda table {
+    width: 140%;
+    margin: 10px 10px;
+    position: relative;
+    border-collapse: collapse;
+    border-collapse: separate;
+}
+
+#conference-agenda th, #conference-agenda td {
+    border: 1.5px solid #1e55ec;
+    padding: 5px;
+    background-color: #eefde7;
+    font-size: 12x;
+    color: #18038b;
+    text-emphasis-color: black;
+   
+    /*font-weight: bold;*/
+}
+
+#conference-agenda tr:nth-child(even) {
+    background-color: #d4c9f3;
+}
+
+@media screen and (max-width: 900px) {
+    table {
+        width: 100%; /* Ensures the table is not wider than the screen */
+    }
+
+    #conference-agenda {
+        font-size: 12px;
+    }
+    
+    #conference-agenda th, #conference-agenda td {
+        padding: 15px;
+    }
+}
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .table-agenda, .table-agenda thead, .table-agenda tbody, .table-agenda th, .table-agenda td, .table-agenda tr {
+        display: block; /* Block display for responsive tables */
+    }
+
+    .table-agenda thead tr {
+        position: absolute; /* Position the header out of flow */
+        top: -9999px; /* Move the header out of the viewport */
+        left: -9999px;
+    }
+
+    .table-agenda tr { margin: 0 0 10px; }
+
+    .table-agenda td {
+        border: none; /* Remove borders for a cleaner look */
+        position: relative; /* For positioning the pseudo-elements */
+        padding-left: 10%; /* Make space for header content before data */
+        text-align: right; /* Align the text to the right for readability */
+    }
+
+    .table-agenda td:before {
+        content: attr(data-label); /* Use data-label attribute for content */
+        position: absolute; /* Position absolutely within the cell */
+        left: 0; /* Align left */
+        width: 100%; /* Width of the pseudo-element */
+        padding-right: 20px; /* Right padding */
+        white-space: nowrap; /* Prevent wrapping */
+        text-align: left; /* Text align left */
+        font-weight: bold; /* Bold font for distinction */
+        color: #181c20; /* Blue color to match headers */
+    }
+}
+
+/* Additional button styling for agenda navigation */
+#conference-agenda button {
+    padding: 10px 5px; /* Padding for buttons */
+    margin-right: 10px; /* Margin between buttons */
+    background-color: #06691c; /* Blue background */
+    color: rgb(255, 255, 255); /* White text */
+    margin-bottom: 10px;
+    border: none; /* No borders */
+    border-radius: 0px; /* Rounded corners */
+    font-weight: bold; /* Bold font for distinction */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+#conference-agenda button:hover {
+    background-color: #3000b3; /* Darker blue on hover */
+}
+
+  
+#logos{
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    background-color: #8dc9f5;
+    font-weight: bold;
+    color: #121414;
+  }
+
+/* General reset */
+/* body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Thematic areas container */
+#thematic-areas-container {
+    font-family: Arial, sans-serif;
+    position: top;
+    line-height: 1.6;
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f5f5f5; /* Light background for visibility */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Each thematic area section */
+.thematic-area {
+    margin-bottom: 30px; /* Space between each thematic area */
+}
+
+/* Thematic area headings */
+.thematic-area h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Icons in headings */
+.thematic-area img {
+    margin-right: 10px;
+    max-width: 30px; /* Keep icon size consistent */
+    height: auto;
+}
+
+/* Services list styling */
+.services {
+    margin-left: 20px;
+}
+
+.services ul {
+    margin: 0;
+    padding-left: 20px;
+    margin-top: 0;
+    list-style-type: disc; /* Ensure proper list styling */
+}
+
+.services li {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555; /* Slightly darker text for readability */
+}
+
+/* Page header adjustments */
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Optional: Set a background color */
+    padding: 10px 0;
+    margin-bottom: 110px; /* Reduce space between header and content */
+}
+
+
+#top-nav {
+position: fixed;
+top: 0;
+width: 100%;
+transition: top 0.3s;
+z-index: 1000;
+}
+
+.logos {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0px;
+}
+.top-logos {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-bottom: 0px;
+}
+.bottom-logos {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+.logos img {
+max-width: 200px;
+height: auto;
+}
+
