@@ -35,7 +35,8 @@
 /* Styles for headings and countdown */
 h1 {
     text-align: left;
-    color: #0f0f0f;
+    color: #1808a5;
+    font-size: 1em;
 }
 h2 {
     text-align: left;
@@ -43,7 +44,7 @@ h2 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 10px; /* Correct unit */
 }
 
@@ -205,8 +206,8 @@ h3 {
 #conference-agenda button {
     padding: 10px 5px; /* Padding for buttons */
     margin-right: 10px; /* Margin between buttons */
-    background-color: #06691c; /* Blue background */
-    color: rgb(255, 255, 255); /* White text */
+    background-color: #bdd844; /* Blue background */
+    color: rgb(10, 10, 10); /* White text */
     margin-bottom: 10px;
     border: none; /* No borders */
     border-radius: 0px; /* Rounded corners */
@@ -216,7 +217,7 @@ h3 {
 }
 
 #conference-agenda button:hover {
-    background-color: #3000b3; /* Darker blue on hover */
+    background-color: #c9fc8f; /* Darker blue on hover */
 }
 
   
@@ -257,7 +258,7 @@ h3 {
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: #333;
+    color: #9c1818;
     margin-bottom: 10px;
 }
 
@@ -293,13 +294,16 @@ h3 {
     align-items: center;
     background-color: #ffffff; /* Optional: Set a background color */
     padding: 10px 0;
-    margin-bottom: 110px; /* Reduce space between header and content */
+    margin-bottom: 90px; /* Reduce space between header and content */
 }
 
 
 #top-nav {
-position: fixed;
+position: absolute;
 top: 0;
+gap: 100%;
+padding-right: 800px; /* Right padding */
+white-space: nowrap; /* Prevent wrapping */
 width: 100%;
 transition: top 0.3s;
 z-index: 1000;
