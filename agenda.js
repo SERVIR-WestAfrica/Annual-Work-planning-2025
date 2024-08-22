@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const agendas = {
     day1: `
-      <h3>Monday 26-Aug: Where are we now?</h3>
+      <h3>Theme: Where are we now?</h3>
       <p><strong>Objective:</strong> Achieve critical awareness of successes, challenges, solutions</p>
        <table border="1">
   <tr>
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </table>
     `,
     day2: `
-  <h3>Tuesday, 27-Aug: Where are we going? </h3>
+  <h3>Theme: Where are we going? </h3>
   <p><strong>Objective:</strong> Awareness of FY25 thrusts & results</p>
   <table>
     <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </table>
     `,
     day3: `
-    <h3>Wednesday, 28-Aug: Strategies for Success </h3>
+    <h3>Theme: Strategies for Success </h3>
     <p><strong>Objective:</strong> Sensitization of Key Thrusts</p>
     <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
   `,
   
     day4: `
-      <h3> Thursday, 29-Aug: Concurrent Planning </h3>
+      <h3> Theme: Concurrent Planning </h3>
       <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
       <tr><td>0830 - 1630</td><td>Communications Workshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </table>
     `,
     day5: `
-      <h3> Friday, 30-Aug: Wrap up Amendments </h3>
+      <h3> Theme: Wrap up Amendments </h3>
       <table>
        <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
       <tr><td>0830 - 1630</td><td>Ad Hoc Meetings to finalize amendment details</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
