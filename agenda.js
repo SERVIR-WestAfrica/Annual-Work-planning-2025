@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
        <table border="1">
   <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
   <tr><td>0700 - 0830</td><td>Registration</td><td>E. Adjowa, A. Bah</td><td></td><td>Name Tags, registration/sign-in sheets</td></tr>
-  <tr><td>0830 - 0840</td><td>Agenda and meeting objectives</td><td>K Gelaye</td><td>M Garba</td><td>Projector, Screen, Sound system</td></tr>
+  <tr><td>0830 - 0840</td><td>Agenda and Meeting Objectives</td><td>K Gelaye</td><td>M Garba</td><td>Projector, Screen, Sound system</td></tr>
   <tr><td rowspan="2">0840 - 0915</td><td>Welcome and Remarks</td><td>P Bartel & M Bako</td><td></td><td rowspan="2">Projector, Screen, Sound system</td></tr>
   <tr><td>Each speaker has 5 minutes: NASA Rep & USAID Rep</td><td>NASA Rep & USAID Rep</td><td></td></tr>
   <tr><td>0915 - 0930</td><td>Participant Introductions (Each participant introduces the person to the right. Name, Affiliation)</td><td>All</td><td>M Garba</td><td>Microphone</td></tr>
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <tr><td>1100 - 1200</td><td>Deliverables, ARLs & Impacts (PMP) with discussion</td> <td>PCS Traore</td> <td>PCS Traore</td><td>Projector, Screen, Sound system</td>
   <tr><td>1200 - 1300</td><td>Challenges Identified and Steps Taken</td> <td>M Sayo</td> <td>PCS Traore</td><td>Projector, Screen, Sound system</td> 
   </tr><tr><td>1300 - 1400</td><td colspan="4">Lunch</td></tr>
-  <tr><td rowspan="5">1400 - 1530</td><td>Pause & Reflect(5 Breakout 5 groups)</td><td>M Sayo</td><td>T Niang</td><td rowspan="5">Flip Charts, Pens, Tables</td></tr>
+  <tr><td rowspan="5">1400 - 1530</td><td>Pause & Reflect(5 Breakout groups)</td><td>M Sayo</td><td>T Niang</td><td rowspan="5">Flip Charts, Pens, Tables</td></tr>
   <tr><td>What went well last year?</td><td>J Mutuku</td><td></td></tr>
   <tr> <td>What needs improvement?</td> <td>M Garba</td> <td></td></tr>
   <tr><td>What is your role in future success?</td><td>B Toukal</td><td></td></tr>
