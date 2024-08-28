@@ -85,9 +85,10 @@ document.addEventListener('DOMContentLoaded', function() {
       <p><strong>Objective:</strong> Ad Hoc Meetings to finalize partner amendment details (including budgets)</p>
       <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
-      <tr><td>8:30-9:10</td><td>AFRIGIST</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
-      <tr><td>9:10-10:30</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
-       </tr><tr><td>10:30 - 11:00</td><td colspan="4">Break</td></tr>
+      <tr><td>8:30-9:00</td><td>AFRIGIST</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>9:00-09:25</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>9:25-10:45</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+       </tr><tr><td>10:45 - 11:00</td><td colspan="4">Break</td></tr>
       <tr><td>11:00-11:30</td><td>ISESTEL</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
       <tr><td>11:30-12:00</td><td>UFL</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
       <tr><td>12:00-13:00</td><td>UC</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
