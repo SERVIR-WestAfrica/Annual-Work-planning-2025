@@ -72,8 +72,9 @@ document.addEventListener('DOMContentLoaded', function() {
       <h3> Theme: Concurrent Planning </h3>
       <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
-      <tr><td>0830 - 1300</td><td>Communications writeshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>0830 - 1045</td><td>Communications writeshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
       <tr><td>0830 - 1300</td><td>PMU editing of AWP</td><td>PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      </tr><tr><td>1300 - 1400</td><td colspan="4">Break</td></tr>
       <tr><td>1400 - 1530</td><td>Online Monthly Progress Reporting  (MPR) demo and practice</td><td>J Mutuku</td><td></td><td>Projector, Screen, Sound system</td></tr>
        <tr><td>1530-1630</td><td>Discussion on Flash Flood Vul. Mapping and S2S Services </td><td>USAID, STLs, AGRHYMET, Key Personnel</td><td></td><td>Projector, Screen, Sound system</td></tr>
        <tr><td>Evening (TBC)</td><td>SAGE preparatory discussions</td><td>All</td><td></td><td>Projector, Screen, Sound system</td></tr>
@@ -86,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
       <tr><td>8:30-9:00</td><td>AFRIGIST</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
-      <tr><td>9:00-09:25</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>9:00-09:25</td><td>AIMS</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
       <tr><td>9:25-10:45</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
        </tr><tr><td>10:45 - 11:00</td><td colspan="4">Break</td></tr>
       <tr><td>11:00-11:30</td><td>ISESTEL</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
