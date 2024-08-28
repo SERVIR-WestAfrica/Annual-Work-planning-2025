@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
       <tr><td>0830 - 1045</td><td>Communications writeshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
       <tr><td>0830 - 1300</td><td>PMU editing of AWP</td><td>PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
-      </tr><tr><td>1300 - 1400</td><td colspan="4">Break</td></tr>
+      </tr><tr><td>1300 - 1400</td><td colspan="4">Lunch</td></tr>
       <tr><td>1400 - 1530</td><td>Online Monthly Progress Reporting  (MPR) demo and practice</td><td>J Mutuku</td><td></td><td>Projector, Screen, Sound system</td></tr>
        <tr><td>1530-1630</td><td>Discussion on Flash Flood Vul. Mapping and S2S Services </td><td>USAID, STLs, AGRHYMET, Key Personnel</td><td></td><td>Projector, Screen, Sound system</td></tr>
        <tr><td>Evening (TBC)</td><td>SAGE preparatory discussions</td><td>All</td><td></td><td>Projector, Screen, Sound system</td></tr>
