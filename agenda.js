@@ -72,18 +72,31 @@ document.addEventListener('DOMContentLoaded', function() {
       <h3> Theme: Concurrent Planning </h3>
       <table>
       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
-      <tr><td>0830 - 1630</td><td>Communications writeshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
-      <tr><td>0830 - 1630</td><td>PMU editing of AWP</td><td>PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
-      <tr><td>1430 - 1630</td><td>Online Monthly Progress Reporting  (MPR) demo and practice</td><td>J Mutuku</td><td></td><td>Projector, Screen, Sound system</td></tr>
-       <tr><td>Evening (TBD)</td><td>SAGE preparatory discussions</td><td>All</td><td></td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>0830 - 1300</td><td>Communications writeshop</td><td>T Niang, A Diama</td><td></td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>0830 - 1300</td><td>PMU editing of AWP</td><td>PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>1400 - 1530</td><td>Online Monthly Progress Reporting  (MPR) demo and practice</td><td>J Mutuku</td><td></td><td>Projector, Screen, Sound system</td></tr>
+       <tr><td>1530-1630</td><td>Discussion on Flash Flood Vul. Mapping and S2S Services </td><td>USAID, STLs, AGRHYMET, Key Personnel</td><td></td><td>Projector, Screen, Sound system</td></tr>
+       <tr><td>Evening (TBC)</td><td>SAGE preparatory discussions</td><td>All</td><td></td><td>Projector, Screen, Sound system</td></tr>
       </table>
     `,
     day5: `
+
       <h3> Theme: Wrap up Amendments </h3>
+      <p><strong>Objective:</strong> Ad Hoc Meetings to finalize partner amendment details (including budgets)</p>
       <table>
-       <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
-      <tr><td>0830 - 1630</td><td>Ad Hoc Meetings to finalize amendment details</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
+      <tr><td>8:30-9:10</td><td>AFRIGIST</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>9:10-10:30</td><td>AGRHYMET</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+       </tr><tr><td>10:30 - 11:00</td><td colspan="4">Break</td></tr>
+      <tr><td>11:00-11:30</td><td>ISESTEL</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>11:30-12:00</td><td>UFL</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>12:00-13:00</td><td>UC</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      </tr><tr><td>13:00 - 14:00</td><td colspan="4">Lunch</td></tr>
+      <tr><td>14:00-15:00</td><td>CSE</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>15:00-16:00</td><td>CERSGIS</td><td>ICRISAT PMU</td><td></td><td>Flip Charts, notebooks</td></tr>
+      <tr><td>16:00-16:30</td><td>ICRISAT</td><td></td><td></td><td></td></tr>
       </table>
+
 
     `,
  
